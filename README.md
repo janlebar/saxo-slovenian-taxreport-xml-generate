@@ -86,6 +86,10 @@ The script expects the trading data in an Excel file with the following columns:
 </Envelope>
 ```
 
+## Disclaimer
+
+⚠️ **This script collects personal and financial data through user input.** Ensure that you do not share your real taxpayer information in public repositories. Use mock data when testing and exclude sensitive files (such as `.xlsx` and `.xml` files containing real data) from version control.
+
 ## Customization
 
 - Modify the `generate_xml_from_excel` function to adjust the XML output format.
